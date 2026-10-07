@@ -1,12 +1,12 @@
 import express from 'express'
 import pg from 'pg'
 
-const app = express()
+const app = exress()
 const port = 3000
 const { Pool } = pg
 
-app.use(exress.json())
-app.use(exress.urlencoded({ extended: true }))
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }))
 
 
 const pool = new Pool({
